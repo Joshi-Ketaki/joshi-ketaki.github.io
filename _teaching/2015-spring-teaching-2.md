@@ -1,10 +1,10 @@
 ---
-title: "CPSC 323 : Introduction to Systems Programming"
+title: "CPSC 323 : Introduction to Systems Programming(Spring 2022)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Yale University, Department of Computer Science"
-date: Spring 2022
+date: 2022-01-01
 location: "New Haven, Connecticut"
 ---
 
