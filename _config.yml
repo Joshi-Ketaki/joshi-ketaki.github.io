@@ -84,8 +84,8 @@ author:
   avatar           : "profile.jpg"
   bio              : "PhD Candidate, Yale University"
   employer         :
-  pubmed           : ""
-  googlescholar    : ""
+  pubmed           : #""
+  googlescholar    : #""
   email            : first_name.last_name@yale.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
