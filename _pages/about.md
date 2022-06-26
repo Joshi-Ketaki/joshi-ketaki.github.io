@@ -24,6 +24,6 @@ News:
 6.  June 2021 : Joined Nvidia as Architecture Research Group Intern.
 7.  May 2021: Received Masters in Computer Science.
 8.  October 2020: Served on WISAY (Women In Sciences at Yale) Board. Mentored undergraduate students.
-9.  May 2020: Receievd Micro 2020 Conference Grant.
+9.  May 2020: Received Micro 2020 Conference Grant.
 10. March 2020: Selected to attend Grad cohort by CRA-WP - Pandemic hits, cancelling the gathering.
 11. August 2019: Left Nvidia. Joined Yale!  Pandemic hits just few months down the line!
