@@ -8,7 +8,7 @@ date: 2021-01-01
 location: "New Haven, Connecticut"
 ---
 
-I was incharge of the compiler segment for this course. For this distribution I created and deployed a segment on introducing data flow analysis with liveness analysis and its application using register allocation. The segment consisted of creating an end to end assignment for register allocation and liveness analysis, a quiz and exam questions apart from study material which introduced the studenst to compilers.
+I was incharge of the compiler segment for this course. For this distribution I created and deployed a segment on introducing data flow analysis with liveness analysis and its application using register allocation. The segment consisted of creating an end to end assignment for register allocation and liveness analysis, a quiz and exam questions apart from study material which introduced the students to compilers.
 
 
 Heading 1
