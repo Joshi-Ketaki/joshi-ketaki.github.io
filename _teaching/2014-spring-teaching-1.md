@@ -1,5 +1,5 @@
 ---
-title: "CPSC 323 : Introduction to Systems Programming"
+title: "CPSC 323 : Introduction to Systems Programming(Spring 2021)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
