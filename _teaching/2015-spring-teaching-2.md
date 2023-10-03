@@ -9,6 +9,7 @@ location: "New Haven, Connecticut"
 ---
 
 Incharge of the compiler module. 
+
 Created a end-to-end toy compiler with a restrictive ISA in C:
   1. Used  to introduce students to the complete compiler flow focussing on the backend.
   2. The students had to implement three optimization passes (peephole, local and intra procedural). The motive was to provide the students a general introduction to compiler optimizations.
