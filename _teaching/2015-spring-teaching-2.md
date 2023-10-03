@@ -8,9 +8,7 @@ date: 2022-01-01
 location: "New Haven, Connecticut"
 ---
 
-1. Incharge of the compiler module. 
-
-Created a end-to-end toy compiler with a restrictive ISA in C:
+Incharge of the compiler module. Created a end-to-end toy compiler with a restrictive ISA in C:
   1. Used  to introduce students to the complete compiler flow focussing on the backend.
   2. The students had to implement three optimization passes (peephole, local and intra procedural). The motive was to provide the students a general introduction to compiler optimizations.
   3. The students also implemented the code generation pass the ISA. the motive of this exercise was to teach the students assembly generation to enable them to write assembly code.
