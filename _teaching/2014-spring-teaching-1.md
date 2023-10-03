@@ -7,9 +7,11 @@ venue: "Yale University, Department of Computer Science"
 date: 2021-01-01
 location: "New Haven, Connecticut"
 ---
+Incharge of the compiler module.
 
-I was incharge of the compiler segment for this course. For this distribution I created and deployed a segment on introducing data flow analysis with liveness analysis and its application using register allocation. The segment consisted of creating an end to end assignment for register allocation and liveness analysis, a quiz and exam questions apart from study material which introduced the students to compilers.
-
+Introduction to Data Flow Analysis and its applications:
+1. Deployed an assignment that introduced students to liveness analysis and its application in register allocation.
+2. This also included creating teaching material for introducing the students to liveness analysis.
 
 Heading 1
 ======
