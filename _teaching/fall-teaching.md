@@ -12,12 +12,3 @@ Incharge of the compiler module.
 1. Help onboarding for newer teaching fellows.
 2. Overlook distribution of the compiler module which reused the toy compiler assignment from Spring 2022.
 3. Proctor and grade examinations.
-   
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
