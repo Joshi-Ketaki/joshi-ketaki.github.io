@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 I am a fifth year PhD candidate from Yale University advised by Prof. Abhishek Bhattacharjee. 
-My research is inspired by cognitive principles for performance improvement in virtual memory management system. Specifically, I am revisiting memory access prefetching as a continual learning task typically seen in datacenters. My research aims at improving the use of machine learning for prefetching. This looks at the fundamnetal challeneges such as catastrophic forgetting which limits the application of machine learning techniques for memeory management.
+My research is inspired by cognitive principles for performance improvement in virtual memory management system. Specifically, I am revisiting memory access prefetching as a continual learning task typically seen in datacenters. My research aims at improving the use of machine learning for prefetching. This looks at the fundamnetal challenges such as catastrophic forgetting which limits the application of machine learning techniques for memeory management.
 
 Before Yale, I was part of the compiler optimization group at NVIDIA. I completed my undergraduate from University of Pune, India and wrote my undergraduate thesis at Indian Institute of Technology, Mumbai where I was advised by Prof. Uday Khedkar.
 
@@ -17,9 +17,9 @@ I originally hail from Pune also known as 'The Oxford of the East'- a city in we
 
 News:
 ======
-1.  June 2022: Received ISCA 2022 travel grant and attended ISCA in person!
-2.  June 2022: Joined Nvidia Unified Virtual Memory Team as an Intern - Working on some exciting research! Stay tuned for more.
-3.  May 2022: Received M.Phil Computer Science.
-4.  April 2022 : Served on Ackerman Faculty Award Review Committee.
-5.  December 2021: Completed Qualifier Exam.
+1.  September 2023: Serving as Communications Chair on the Society for Women Engineers(SWE) - Yale board.
+2.  May 2023: Our work on mitigating catastrophic forgetting in LSTMs is out on arxiv.
+3.  February 2023: Our work on prefetching using Complementary Learning System principles is selected for HOTOS '23.
+4.  June 2022: Received ISCA 2022 travel grant and attended ISCA in person!
+5.  June 2022: Joined Nvidia Unified Virtual Memory Team as an Intern - Working on some exciting research! Stay tuned for more.
 
