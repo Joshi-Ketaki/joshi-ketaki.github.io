@@ -11,12 +11,3 @@ Incharge of the compiler module. Introduction to Data Flow Analysis and its appl
 1. Deployed an assignment that introduced students to liveness analysis and its application in register allocation.
 2. This also included creating teaching material for introducing the students to liveness analysis.
 3. Proctor and grade examinations.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
