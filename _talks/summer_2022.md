@@ -2,9 +2,9 @@
 title: "Access Guided Eviction for Unified Virtual Memory"
 collection: talks
 type: "End of Internship talk"
-permalink: /talks/2012-03-01-talk-1
+permalink: /talks/summer_2022
 venue: "Nvidia"
-date: 2021-12-16
+date: 2022-08-26
 location: "Santa Clara, California"
 ---
 Today’s systems are heterogeneous. Specifically, if we look at CPU-GPU systems, we notice that CPUs have higher memory capacity and lower bandwidth compared to GPU systems. 
