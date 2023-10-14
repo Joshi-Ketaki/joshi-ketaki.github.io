@@ -7,19 +7,20 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a fifth year PhD candidate from Yale University advised by Prof. Abhishek Bhattacharjee. 
-My research is inspired by cognitive principles for performance improvement in virtual memory management system. Specifically, I am revisiting memory access prefetching as a continual learning task typically seen in datacenters. My research aims at improving the use of machine learning for prefetching. This looks at the fundamnetal challenges such as catastrophic forgetting which limits the application of machine learning techniques for memeory management.
+I am a fifth-year PhD student at Yale University, where I am advised by [Prof. Abhishek Bhattacharjee.](https://www.cs.yale.edu/homes/abhishek/). 
 
-Before Yale, I was part of the compiler optimization group at NVIDIA. I completed my undergraduate from University of Pune, India and wrote my undergraduate thesis at Indian Institute of Technology, Mumbai where I was advised by Prof. Uday Khedkar.
+My research leverages cognitive principles with the goal of making Machine Learning (ML)  solutions deployable in real-world computer systems. I am specifically interested in making ML solutions deployable in computer system optimizations such as prefetching and eviction in memory management.  
 
-I originally hail from Pune also known as 'The Oxford of the East'- a city in western India surrounded by hills and home to many educational institutes. Apart from work, I enjoy swimming and cycling a lot. While indoors, I love experimenting with different spice profiles for tea.
+Prior to Yale, I worked at NVIDIA in the compiler optimization group. I received my undergraduate degree from the [University of Pune] (http://www.unipune.ac.in/university_files/about_university.htm) in India and carried out my undergraduate thesis research at the [Indian Institute of Technology, Bombay](https://www.iitb.ac.in/) in Mumbai, where [Prof. Uday Khedkar](https://www.cse.iitb.ac.in/~uday/) advised me.
+
+I am originally from [Pune](https://pune.gov.in/), commonly known as 'The Oxford of the East,' which is a city in western India surrounded by hills and home to numerous educational institutes. Aside from work, I like swimming and cycling. While I'm at home, I enjoy experimenting with different spice profiles for tea.
 
 
 News:
 ======
-1.  September 2023: Serving as Communications Chair on the Society for Women Engineers(SWE) - Yale board.
-2.  May 2023: Our work on mitigating catastrophic forgetting in LSTMs is out on arxiv.
+1.  September 2023: Serving as the Communications Chair on the Society for Women Engineers(SWE) - Yale board.
+2.  May 2023: Our work on Mitigating Catastrophic Forgetting in LSTMs is out on Arxiv.
 3.  February 2023: Our work on prefetching using Complementary Learning System principles is selected for HOTOS '23.
-4.  June 2022: Received ISCA 2022 travel grant and attended ISCA in person!
-5.  June 2022: Joined Nvidia Unified Virtual Memory Team as an Intern - Working on some exciting research! Stay tuned for more.
+4.  June 2022: Received ISCA 2022 travel grant and attended ISCA in person.
+5.  June 2022: Joined Nvidia Unified Virtual Memory Team as an Intern. Achieved great results in improving the existing eviction algorithm.
 
