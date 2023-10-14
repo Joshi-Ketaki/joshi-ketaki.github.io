@@ -9,11 +9,11 @@ redirect_from:
 ---
 I am a fifth-year PhD student at Yale University, where I am advised by [Prof. Abhishek Bhattacharjee.](https://www.cs.yale.edu/homes/abhishek/). 
 
-My research leverages cognitive principles with the goal of making Machine Learning (ML)  solutions deployable in real-world computer systems. I am specifically interested in making ML solutions deployable in computer system optimizations such as prefetching and eviction in memory management.  
+My research leverages cognitive principles to make Machine Learning (ML)  solutions deployable in real-world computer systems. I am specifically interested in making ML solutions deployable in computer system optimizations such as prefetching and eviction in memory management.  
 
-Prior to Yale, I worked at NVIDIA in the compiler optimization group. I received my undergraduate degree from the [University of Pune] (http://www.unipune.ac.in/university_files/about_university.htm) in India and carried out my undergraduate thesis research at the [Indian Institute of Technology, Bombay](https://www.iitb.ac.in/) in Mumbai, where [Prof. Uday Khedkar](https://www.cse.iitb.ac.in/~uday/) advised me.
+Before Yale, I worked at NVIDIA in the compiler optimization group. I received my undergraduate degree from the [University of Pune] (http://www.unipune.ac.in/) in India and carried out my undergraduate thesis research at the [Indian Institute of Technology, Bombay](https://www.iitb.ac.in/) in Mumbai, where [Prof. Uday Khedkar](https://www.cse.iitb.ac.in/~uday/) advised me.
 
-I am originally from [Pune](https://pune.gov.in/), commonly known as 'The Oxford of the East,' which is a city in western India surrounded by hills and home to numerous educational institutes. Aside from work, I like swimming and cycling. While I'm at home, I enjoy experimenting with different spice profiles for tea.
+I am originally from [Pune, India](https://pune.gov.in/), commonly known as 'The Oxford of the East,' which is a city in western India surrounded by hills and home to numerous educational institutes. Aside from work, I like swimming and cycling. While I'm at home, I enjoy experimenting with different spice profiles for tea.
 
 
 News:
