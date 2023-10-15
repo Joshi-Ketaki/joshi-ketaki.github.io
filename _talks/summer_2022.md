@@ -7,16 +7,8 @@ venue: "Nvidia"
 date: 2022-08-26
 location: "Santa Clara, California"
 ---
-Today’s systems are heterogeneous. Specifically, if we look at CPU-GPU systems, we notice that CPUs have higher memory capacity and lower bandwidth compared to GPU systems. 
-Additionally low bandwidth interconnects makes the overall data transfer between different system components a hard problem to optimize. Hence, it becomes very important to place the data as close to location
-of compute and if not, reduce the number of migrations between different system components. Migration costs are majorly attributed to page fault latency and slow interconnects. Hence, it is
-important that we reduce the number of page faults and are cognizant of what is evicted from GPU memory that can cause page faults later. In other words, we do not want to evict data just to
-fault on it again and add to the migrations. This is typically important in workloads that exhibit data reuse.
-My work focused on improving the performance of current Unified Virtual Memory (UVM) eviction policy which fails badly for workloads that display data reuse. This is because
-the current policy does not consider access information. 
-I developed an eviction policy that attributes access patterns and access information of a workload to avoid evicting data that can be used in the near
-future. This is unlike the current policy which simply evicted data that was least recently migrated without accounting for its usage pattern. We were able to show two orders of magnitude performance improvement
-w.r.t end-to-end application time in cases where the GPU memory was oversubscribed i.e. was
-full and needed evictions. The performance managed to come at-par with the undersubscribed i.e. no migration overhead case for same problem size and same number of computations. We
-also displayed that for workloads that do not show data reuse, our policy fared as good as the existing policy; which was expected. We were successful in accounting for access information and
-not evicting out pages that will be needed in the near future. Hence, reducing the number of page faults and evictions.
+Today's systems are heterogeneous. When we look at CPU-GPU systems, we can see that CPUs have more memory capacity and lower bandwidth than GPU systems. 
+Furthermore, limited bandwidth interconnects make overall data flow between system components difficult to optimize. As a result, it is critical to position the data as close to the compute unit as possible and, if possible, to decrease the number of migrations between different system components.
+The majority of migration costs are related to page fault latency and slow interconnects. As a result, it is critical that we decrease the number of page faults and are aware of what is evicted from GPU memory that may cause page faults later. In other words, we don't want to evict data only having to migrate it again. This is especially essential in workloads when data is reused. My research focused on enhancing the performance of the present Unified Virtual Memory (UVM) eviction mechanism, which performs miserably in workloads with data reuse. This is because the existing policy does not take access information into account. 
+I created an eviction policy that attributes access patterns and access information of a workload to prevent evicting data that can be used in the near future. 
+We were effective in accounting for access information and avoiding the removal of data that will be required in the near future. As a result, the number of page faults is reduced. This is in contrast to the current policy, which simply evicted data that was least recently migrated without taking into account its usage pattern. We were able to demonstrate two orders of magnitude speedup in terms of end-to-end application time when the GPU memory was oversubscribed i.e. was full and required evictions. 
