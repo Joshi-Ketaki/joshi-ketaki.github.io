@@ -8,7 +8,7 @@ date: 2022-01-01
 location: "New Haven, Connecticut"
 ---
 
-Incharge of the compiler module. 
-1. Help onboarding for newer teaching fellows.
-2. Overlook distribution of the compiler module which reused the toy compiler assignment from Spring 2022.
-3. Proctor and grade examinations.
+Responsible for the compiler module. 
+1. Assist new teaching assistants with their onboarding.
+2. Supervised distribution of the compiler module, which reused the toy compiler assignment from Spring 2022.
+3. Proctored and graded examinations.
