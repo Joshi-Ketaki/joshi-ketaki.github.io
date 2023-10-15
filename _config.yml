@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Ketaki Joshi"
   avatar           : "profile.jpg"
-  bio              : "PhD Candidate, Yale University"
-  employer         :
+  bio              : "Ph.D Candidate, Computer Science"
+  employer         : "Yale University"
   pubmed           : #""
   googlescholar    : #""
-  email            : first_name.last_name@yale.edu
+  email            : ketaki.joshi@yale.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0009-7913-3458"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -114,6 +114,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  LinkedIn         : "https://www.linkedin.com/in/ketaki-joshi-yale-cs/"
 
 
 # Reading Files
