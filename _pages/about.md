@@ -7,9 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
+[WEBSITE IS UNDER CONSTRUCTION]
+
 I am a fifth-year PhD student at Yale University, where I am advised by [Prof. Abhishek Bhattacharjee.](https://www.cs.yale.edu/homes/abhishek/). 
 
-My research leverages cognitive principles to make Machine Learning (ML)  solutions deployable in real-world computer systems. I am specifically interested in making ML solutions deployable in computer system optimizations such as prefetching and eviction in memory management.  
+My research leverages cognitive principles to make Machine Learning (ML) solutions practically deployable in real-world computer systems. I am specifically interested in making ML solutions deployable for memory management for prefetching and eviction.  
 
 Before Yale, I worked at NVIDIA in the compiler optimization group. I received my undergraduate degree from the [University of Pune](http://www.unipune.ac.in/) in India and carried out my undergraduate thesis research at the [Indian Institute of Technology, Bombay](https://www.iitb.ac.in/) in Mumbai, where [Prof. Uday Khedkar](https://www.cse.iitb.ac.in/~uday/) advised me.
 
