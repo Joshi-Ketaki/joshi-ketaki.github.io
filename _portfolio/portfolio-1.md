@@ -1,7 +1,11 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/files/Ketaki_Joshi_Yale_CV.pdf'>"
+title: "Mitigating Catastrophic Forgetting using Context-Dependent Learning"
+excerpt: "Mitigating Catastrophic Forgetting using Context-Dependent Learning <br/><img src='/images/NN_task_context_learning.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Catastrophic Forgetting is a fundamental challenge faced by all systems that learn online. We propose leveraging cognitive inspiration of 
+context-dependent learning to reduce forgetting. In this work, we demonstrate a catastrophic forgetting mitigation tactic that uses existing 
+neural network architecture as-is. Compared to existing catastrophic forgetting mitigation tactics, our technique takes less storage 
+and is less time-consuming.
+
