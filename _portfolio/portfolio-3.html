@@ -1,10 +1,19 @@
 ---
-title: "Mitigating Catastrophic Forgetting using Context-Dependent Learning"
-excerpt: "Mitigating Catastrophic Forgetting using Context-Dependent Learning <br/><img src='/images/NN_task_context_learning.png'>"
+title: "Distill: Domain-Specific Compilation for Cognitive Models"
+excerpt: "Distill: Domain-Specific Compilation for Cognitive Models <br/><img src='/images/Clone_Detection_Common_Operations.png'>"
 collection: portfolio
 ---
 
-Catastrophic Forgetting is a fundamental challenge faced by all systems that learn online. We propose leveraging cognitive inspiration of 
-context-dependent learning to reduce forgetting. In this work, we demonstrate a catastrophic forgetting mitigation tactic that uses existing 
-neural network architecture as-is. Compared to existing catastrophic forgetting mitigation tactics, our technique takes less storage 
-and is less time-consuming.
+Computational models of cognition enable a better understanding of the human brain and behavior, psychiatric and
+neurological illnesses, clinical interventions to treat illnesses, and also offer a path towards human-like artificial intelligence.
+Cognitive models are also, however, laborious to develop, requiring the composition of many types of computational tasks, and suffer
+from poor performance as they are generally designed using high-level languages like Python. In this work, we present Distill,
+a domain-specific compilation tool to accelerate cognitive models while continuing to offer cognitive scientists the ability to 
+develop their models in flexible high-level languages. 
+Distill uses domain-specific knowledge to compile Python-based cognitive  models into LLVM IR, carefully stripping away features like 
+dynamic typing and memory management that add performance overheads without being necessary for the underlying computation 
+of the models. The net effect is an average of 27× performance improvement in model execution over state-of-the-art 
+techniques using Pyston and PyPy. Distill also repurposes classical compiler data flow analyses to reveal properties of data 
+flow in cognitive models that are useful to cognitive scientists such as detecting computational clones to enable reusability of models. 
+Distill is publicly  available, integrated with the PsyNeuLink cognitive modeling environment, and is already being used by 
+researchers in the brain sciences.
