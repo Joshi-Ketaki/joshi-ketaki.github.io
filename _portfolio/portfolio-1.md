@@ -1,7 +1,6 @@
 ---
 title: "Mitigating Catastrophic Forgetting using Context-Dependent Learning (Research in Progress)"
-excerpt: "Catastrophic Forgetting is a fundamental challenge faced by all systems that learn online. We propose leveraging the cognitive inspiration of context-dependent learning to reduce forgetting in a resource-efficient manner"
-<br/><img src='/images/Memory_Architecture_Of_Brain_CLS.png'>
+excerpt: "Catastrophic Forgetting is a fundamental challenge faced by all systems that learn online. We propose leveraging the cognitive inspiration of context-dependent learning to reduce forgetting in a resource-efficient manner."
 collection: portfolio
 ---
 
