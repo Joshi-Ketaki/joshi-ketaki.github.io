@@ -1,6 +1,6 @@
 ---
-title: "Mitigating Catastrophic Forgetting using Context-Dependent Learning (Research in Progress)"
-excerpt: "<br/><img src='/images/Memory_Architecture_Of_Brain_CLS.png'> 
+title: "Mitigating Catastrophic Forgetting using Context-Dependent Learning"
+excerpt: "<br/><img src='/images/NN_task_context_learning.png'> 
 <br/>
 Catastrophic Forgetting is a fundamental challenge faced by all systems that learn online. We propose leveraging the cognitive inspiration of context-dependent learning to reduce forgetting in a resource-efficient manner."
 collection: portfolio
@@ -13,7 +13,7 @@ Catastrophic Forgetting is a fundamental challenge faced by all systems that lea
 ![Learning with context] http://joshi-ketaki.github.io/images/NN_task_context_learning.png
 
 <br/>
-Paper:
+Paper: Note that this research is currently in progress and being updated continuously.
 <br/>
 **Joshi, Ketaki**, Pothukuchi, Raghav. Pradyumna., Wibisono, Andre., & Bhattacharjee, Abhishek. (2023). Mitigating Catastrophic Forgetting in Long Short-Term Memory Networks. ArXiv. /abs/2305.17244
 
