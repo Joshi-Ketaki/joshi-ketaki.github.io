@@ -6,8 +6,9 @@ collection: portfolio
 ---
 
 Catastrophic Forgetting is a fundamental challenge faced by all systems that learn online. We propose leveraging cognitive inspiration of context-dependent learning to reduce forgetting. In this work, we demonstrate a catastrophic forgetting mitigation tactic that uses existing neural network architecture as-is. Compared to existing catastrophic forgetting mitigation tactics, our technique takes less storage and is less time-consuming.
-<br/><img src='/images/NN_No_task_context_learning.png'>
-<br/><img src='/images/NN_task_context_learning.png'>
+![Learning without context] http://joshi-ketaki.github.io/images/NN_No_task_context_learning.png
+![Learning with context] http://joshi-ketaki.github.io/images/NN_task_context_learning.png
+
 
 Paper:
 **Joshi, Ketaki**, Pothukuchi, Raghav. Pradyumna., Wibisono, Andre., & Bhattacharjee, Abhishek. (2023). Mitigating Catastrophic Forgetting in Long Short-Term Memory Networks. ArXiv. /abs/2305.17244
