@@ -1,8 +1,15 @@
 ---
 title: "Distill: Domain-Specific Compilation for Cognitive Models"
-excerpt: "Distill: Domain-Specific Compilation for Cognitive Models <br/><img src='/images/Clone_Detection_Common_Operations.png'>"
+excerpt: "<br/><img src='/images/Clone_Detection_Common_Operations.png'> 
+<br/>
+Cognitive models are also, however, laborious to develop, requiring the composition of many types of computational tasks, and suffer
+from poor performance as they are generally designed using high-level languages like Python. In this work, we present Distill,
+a domain-specific compilation tool to accelerate cognitive models while continuing to offer cognitive scientists the ability to 
+develop their models in flexible high-level languages"
 collection: portfolio
 ---
+
+
 
 Computational models of cognition enable a better understanding of the human brain and behavior, psychiatric and
 neurological illnesses, clinical interventions to treat illnesses, and also offer a path towards human-like artificial intelligence.
@@ -10,10 +17,22 @@ Cognitive models are also, however, laborious to develop, requiring the composit
 from poor performance as they are generally designed using high-level languages like Python. In this work, we present Distill,
 a domain-specific compilation tool to accelerate cognitive models while continuing to offer cognitive scientists the ability to 
 develop their models in flexible high-level languages. 
+
+<br/><img src='/images/Normalized_Execution_Time_Distil.png'> 
 Distill uses domain-specific knowledge to compile Python-based cognitive  models into LLVM IR, carefully stripping away features like 
 dynamic typing and memory management that add performance overheads without being necessary for the underlying computation 
 of the models. The net effect is an average of 27× performance improvement in model execution over state-of-the-art 
-techniques using Pyston and PyPy. Distill also repurposes classical compiler data flow analyses to reveal properties of data 
+techniques using Pyston and PyPy. 
+
+<br/><img src='/images/Clone_Detection_Common_Operations.png'> 
+Distill also repurposes classical compiler data flow analyses to reveal properties of data 
 flow in cognitive models that are useful to cognitive scientists such as detecting computational clones to enable reusability of models. 
 Distill is publicly  available, integrated with the PsyNeuLink cognitive modeling environment, and is already being used by 
 researchers in the brain sciences.
+
+
+
+<br/>
+Paper:
+<br/>
+Ján Veselý, Raghavendra Pradyumna Pothukuchi, <strong>Ketaki Joshi</strong>, Samyak Gupta, Jonathan D. Cohen, and Abhishek Bhattacharjee. 2022. Distill: domain-specific compilation for cognitive models. In Proceedings of the 20th IEEE/ACM International Symposium on Code Generation and Optimization (CGO '22). IEEE Press, 301–312. https://doi.org/10.1109/CGO53902.2022.9741278
