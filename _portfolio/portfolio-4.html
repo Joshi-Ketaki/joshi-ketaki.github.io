@@ -1,33 +1,29 @@
 ---
-title: "Distill: Domain-Specific Compilation for Cognitive Models"
-excerpt: "<br/><img src='/images/Clone_Detection_Common_Operations.png'> 
+title: "Access Guided Eviction for GPU Memory"
+excerpt: "<br/><img src='/images/Memory_Placement_Access_GE.png'> 
 <br/>
-Cognitive models are also, however, laborious to develop, requiring the composition of many types of computational tasks, and suffer
-from poor performance as they are generally designed using high-level languages like Python. In this work, we present Distill,
-a domain-specific compilation tool to accelerate cognitive models while continuing to offer cognitive scientists the ability to 
-develop their models in flexible high-level languages"
-collection: portfolio
+In CPU-GPU systems, GPUs have lower memory capacity, but higher bandwidth compared to CPU systems. 
+Slower interconnects between such devices slow down the memory transfer. To lower memory transfers it is important to keep the data 
+closer to the location of the compute. 
+collection: Portfolio
 ---
+Memory placement is critical in modern heterogeneous systems. These systems face the issue of slow memory transfers. 
+Let's look at CPU-GPU systems in particular. In CPU-GPU systems, GPUs have lower memory capacity, but higher bandwidth compared to CPU systems. 
+Slower interconnects between such devices slows down the memory transfer. To lower memory transfers it is important to keep the data 
+closer to the location of the compute. 
 
-
-
-Computational models of cognition enable a better understanding of the human brain and behavior, psychiatric and
-neurological illnesses, clinical interventions to treat illnesses, and also offer a path towards human-like artificial intelligence.
-Cognitive models are also, however, laborious to develop, requiring the composition of many types of computational tasks, and suffer
-from poor performance as they are generally designed using high-level languages like Python. In this work, we present Distill,
-a domain-specific compilation tool to accelerate cognitive models while continuing to offer cognitive scientists the ability to 
-develop their models in flexible high-level languages. 
-
-<br/><img src='/images/Normalized_Execution_Time_Distil.png'> 
+<br/><img src='/images/Memory_Placement_Access_GE.png'> 
 <br/>
-Distill uses domain-specific knowledge to compile Python-based cognitive  models into LLVM IR, carefully stripping away features like 
-dynamic typing and memory management that add performance overheads without being necessary for the underlying computation 
-of the models. The net effect is an average of 27× performance improvement in model execution over state-of-the-art 
-techniques using Pyston and PyPy. 
+This highlights the important research question of selecting the right eviction
+candidate to make space for new data if the compute node's memory is oversubscribed. A bad eviction policy will evict data which 
+is going to be needed in the near future. The existing policy in the CPU-GPU memory management stack was developed when GPUs were used for 
+applications that demonstrated streaming access patterns. The existing eviction policy performs poorly on emerging GPU applications such as
+graph processing which exhibit irregular or non-streaming access patterns. We proposed a new eviction policy that was access-aware and did not throw out data 
+that would be needed in the near future. This new policy achieved a performance improvement of two orders of magnitude. It evicts data that will not be used in the near future and
+avoids unnecessary removal and fetch of data that will be used. The old policy removes data that could be needed and generates more evictions as this removed data has to be brought in again. 
+The following graph demonstrates the reduction in the number of evictions with the proposed policy compared to the existing baseline which is shown as the red line.
 
-<br/><img src='/images/Clone_Detection_Common_Operations.png'> 
+<br/><img src='/images/Results_Rate_Acess_GE.png'> 
 <br/>
-Distill also repurposes classical compiler data flow analyses to reveal properties of data 
-flow in cognitive models that are useful to cognitive scientists such as detecting computational clones to enable reusability of models. 
-Distill is publicly  available, integrated with the PsyNeuLink cognitive modeling environment, and is already being used by 
-researchers in the brain sciences.
+
+This work was done as a part of an internship at Nvidia in the summer of 2022.
