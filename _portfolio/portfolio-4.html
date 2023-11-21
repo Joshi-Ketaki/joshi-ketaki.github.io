@@ -1,6 +1,8 @@
 ---
 title: "Hardware Agnostic Parallel Application Deployment"
-excerpt: "Traditionally, compute intensive parts of an application"
+excerpt: "CPU and GPUs are envisioned as available thread-pools equally capable of executing the
+application at hand. Providing performance superior to a discrete GPU is not the objective. The goal is to ensure that idle system times
+are reduced, resulting in better power efficiency and better throughput for the entire CPU-GPU ecosystem."
 collection: Portfolio
 ---
 <br/><img src='/images/Reroute_applications_CPU_GPU.png'> 
@@ -10,7 +12,7 @@ dispatched on a GPU while the sequential parts of the application are run on a C
 a unified architecture, i.e., CPUs and GPUs co-existing as first-class compute citizens on the same system. On these unified 
 architectures, the CPU should not merely be the offloader of tasks to the other system components such as the GPU. 
 It would be beneficial if in such systems, CPU and GPUs are envisioned as available thread-pools equally capable of executing the
-application at had. Providing performance superior to a discrete GPU is not the objective. The goal is to ensure that idle system times
+application at hand. Providing performance superior to a discrete GPU is not the objective. The goal is to ensure that idle system times
 are reduced, resulting in better power efficiency and better throughput for the entire CPU-GPU ecosystem.
 
 <br/><img src='/images/CUDA_Task_Launcher_Results.png'> 
