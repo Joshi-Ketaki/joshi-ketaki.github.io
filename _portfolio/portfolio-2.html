@@ -3,20 +3,24 @@ title: "Prefetching Using Principles of Hippocampal-Neocortical Interaction"
 excerpt: "<br/><img src='/images/Memory_Architecture_Of_Brain_CLS.png'>
 <br/> 
 We study the potential of leveraging human brain inspired principles of learning
-to build resource-efficient, accurate and adaptable ML solutions for memory management in computer systems."
+to build resource-efficient, accurate and adaptable ML solutions for memory management, specifically, memory access preftching in computer systems."
 collection: portfolio
 ---
 
-Memory prefetching improves performance across many systems layers. However, achieving high prefetch accuracy with low overhead 
-is challenging, as memory hierarchies and application memory access patterns become more complicated.  
-Recent work has demonstrated the use of deep learning techniques to improve prefetching accuracy, albeit with impractical 
-compute and storage overheads. This paper suggests taking inspiration from the learning mechanisms and memory architecture 
-of the human brain---specifically, the hippocampus and neocortex---to build resource-efficient, accurate, and adaptable prefetchers.
-
-
 <br/><img src='/images/Memory_Architecture_Of_Brain_CLS.png'>
 <br/>
+Prefetching memory accesses improves performance across many system layers. However, as memory hierarchies and application memory 
+access patterns become more complicated, achieving high prefetch accuracy with low storage and compute overhead becomes more difficult.  
+Recent research has shown that deep learning techniques can be used to improve prefetching accuracy, although with huge compute and 
+storage overheads. This work proposes drawing inspiration from the human cognitive mechanism and memory architecture, specifically the hippocampus and neocortex (known as Complementary Learning System(CLS)), to create 
+resource-efficient, accurate, and adaptable prefetchers.
+
 <br/><img src='/images/Prefetching_using_neural_networks.png'>
+<br/>
+We investigate the overheads of deep-learning based prefetchers. We find that existing learning-based prefetchers have high storage 
+and compute overheads and operate primarily offline. Even if we solve the offline learning challenge by using online learning, we still 
+face the fundamental challenge of catastrophic forgetting, which all online learning models face. We also discuss how CLS principles such as replay can be used to reduce catastrophic forgetting while techniques like hebbian learning can be used to reduce compute overheads.
+We outline the challenges involved in implementing these CLS-inspired techniques in real-world systems.
 
 <br/>
 Paper:
