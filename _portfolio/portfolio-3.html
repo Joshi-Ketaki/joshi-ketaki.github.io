@@ -2,29 +2,27 @@
 title: "Access Guided Eviction for GPU Memory"
 excerpt: "<br/><img src='/images/Memory_Placement_Access_GE.png'> 
 <br/>
-In CPU-GPU systems, GPUs have lower memory capacity, but higher bandwidth compared to CPU systems. 
-Slower interconnects between such devices slow down the memory transfer. To lower memory transfers it is important to keep the data 
-closer to the location of the compute."
+Computer systems are becoming increasingly heterogeneous. In heterogeneous systems, accelerators such as GPUs have lower memory capacity but higher bandwidth than CPUs. 
+Furthermore, the interconnects between these devices are slower, slowing down memory transfer. To reduce these slow memory transfers, it is important to keep the data close 
+to the node where it will be required."
 collection: Portfolio
 ---
-Memory placement is critical in modern heterogeneous systems. These systems face the issue of slow memory transfers. 
-Let's look at CPU-GPU systems in particular. In CPU-GPU systems, GPUs have lower memory capacity, but higher bandwidth compared to CPU systems. 
-Slower interconnects between such devices slows down the memory transfer. To lower memory transfers it is important to keep the data 
-closer to the location of the compute. 
-
 <br/><img src='/images/Memory_Placement_Access_GE.png'> 
 <br/>
-This highlights the important research question of selecting the right eviction
-candidate to make space for new data if the compute node's memory is oversubscribed. A bad eviction policy will evict data which 
-is going to be needed in the near future. The existing policy in the CPU-GPU memory management stack was developed when GPUs were used for 
-applications that demonstrated streaming access patterns. The existing eviction policy performs poorly on emerging GPU applications such as
-graph processing which exhibit irregular or non-streaming access patterns. We proposed a new eviction policy that was access-aware and did not throw out data 
-that would be needed in the near future. This new policy achieved a performance improvement of two orders of magnitude. It evicts data that will not be used in the near future and
-avoids unnecessary removal and fetch of data that will be used. The old policy removes data that could be needed and generates more evictions as this removed data has to be brought in again. 
-The following graph demonstrates the reduction in the number of evictions with the proposed policy compared to the existing baseline which is shown as the red line.
-
+Computer systems are becoming increasingly heterogeneous. In heterogeneous systems, accelerators such as GPUs have lower memory capacity but higher bandwidth than CPUs. 
+Furthermore, the interconnects between these devices are slower, slowing down memory transfer. To reduce these slow memory transfers, it is important to keep the data close 
+to the node where it will be required.
+<br/>
 <br/><img src='/images/Results_Rate_Acess_GE.png'> 
 <br/>
+Reduced memory transfers indicate lesser unnecessary evictions from accelerator memory when it is oversubscribed. 
+An unnecessary eviction is one that evicts data that will be required in the near future and must be brought back. 
+The current policy in the CPU-GPU memory management stack was created when GPUs were predominantly used for applications with streaming access patterns. The current eviction policy 
+performs poorly in emerging GPU applications like graph processing, which have irregular or non-streaming access patterns. 
+As part of this internship, I worked on creating an eviction policy suitable for all types of access -patterns. 
+This policy is access-aware and does not discard data that would be required in the near future. This new policy resulted in a two-order-of-magnitude increase in performance. 
+It evicts data that will not be used in the near future while avoiding unnecessary data removal and retrieval. 
+The graph above shows the reduction in evictions with the proposed policy compared to the existing baseline (shown in red).
 
-
+<br/>
 This talk was based on the work done as a part of the internship at Nvidia in the summer of 2022.
