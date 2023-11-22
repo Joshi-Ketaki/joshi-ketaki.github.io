@@ -15,7 +15,7 @@ We consider the fundamental challenge of learning online accurately and without 
 <br/><img src='/images/NN_task_context_learning.png'>
 <br/>
 We study how catastrophic forgetting manifests in neural networks. We specifically examine the recently created memory access prefetchers based on LSTMs. We notice that forgetting occurs when information is erased from the cell-state memory in LSTMs. So, we propose maintaining separate contexts in form of task-specific cell-state memories in LSTMs to mitigate forgetting.
-When compared to current CF mitigation tactics, the context-dependent learning mechanism that we proposed is efficient in terms of both storage and latency. Compared to the replay technique of CF mitigation, 16X less storage has been used in the initial prototype studies. When compared to the regularization strategy of CF mitigation, we observe a speedup by factor of 1.6.
+When compared to current CF mitigation tactics, the context-dependent learning mechanism that we proposed is efficient in terms of both storage and latency. Compared to the replay technique of CF mitigation, we observer a reduction in external storage by a factor of 16 in the initial prototype studies. When compared to the regularization strategy of CF mitigation, we observe a speedup by factor of 1.6.
 
 We plan to further continue this investigation of implementing context-dependent recall to mitigate catastrophic forgetting in more neural network architectures such as transformers. 
 
