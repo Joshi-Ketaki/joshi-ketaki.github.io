@@ -5,19 +5,19 @@ excerpt: "<br/><img src='/images/NN_task_context_learning.png'>
 Catastrophic Forgetting is a fundamental challenge faced by all systems that learn online. We propose leveraging the cognitive inspiration of context-dependent learning to reduce forgetting in a resource-efficient manner."
 collection: portfolio
 ---
-Every online learning system faces the fundamental challenge of catastrophic forgetting. To prevent forgetfulness, we suggest utilizing cognitive inspired context-dependent learning. Here, we provide a catastrophic forgetting mitigation strategy that leverages the current neural network architecture in its essence. Our method is simpler, faster and requires less storage than current catastrophic forgetting mitigation strategies.
+We consider the fundamental challenge of learning online accurately and without catastrophic forgetting. We propose an effective strategy inspired by cognitive learning principles. We see that the human brain is constantly confronted with tasks and that it discovers and employs contextual cues to learn and recall tasks. We use this observation to deploy context-dependent learning in neural networks, which mitigates CF while being more resource-efficient than existing CF mitigation strategies.
 <br/>
 <br/><img src='/images/NN_No_task_context_learning.png'> 
 
 <br/>
 <br/><img src='/images/NN_task_context_learning.png'>
 <br/>
-More specifically, we look at the recently proposed LSTMs for memory access prefetching which is an important sequential problem in 
-computer systems memory management. We study how catatstrophic forgetting manifests in LSTMs and propose an implementation of context-dependent learning for the LSTM architecture which utilizes separate cell-state memories for each task. We demonstrate a reduction in required storage by a factor of 16 compared to existing catastrophic forgetting mitigation tactic of replay. We also demonstrate a speedup by a factor of 1.6 compared to state-of-the-art regularization methods of catastrophic forgetting mitigation. 
-We plan to further extenb this investigation for other neural network architectures, specifically transformers.
+We then use this approach to develop deep learning-based resource-efficient, accurate and adaptable virtual memory management techniques. We specifically examine the recently created memory access prefetchers based on LSTMs. To recognize various memory access patterns while adhering to resource limitations, a learning-based mechanism is needed which is adaptable, accurate and resource-efficient. When compared to current CF mitigation tactics, the context-dependent learning mechanism that we proposed is efficient in terms of both storage and latency. Compared to the replay technique of CF mitigation, 16X less storage has been used in the initial prototype studies. When compared to the regularization strategy of CF mitigation, we observe a speedup by factor of 1.6.
+We plan to further continue this investigation of implementing context-dependent recall to mitigate catastrophic forgetting in more neural network architectures such as transformers. 
 
+Note that this research is currently in progress and being updated continuously.
 <br/>
-Paper: Note that this research is currently in progress and being updated continuously.
+Paper: 
 <br/>
 **Joshi, Ketaki**, Pothukuchi, Raghav. Pradyumna., Wibisono, Andre., & Bhattacharjee, Abhishek. (2023). Mitigating Catastrophic Forgetting in Long Short-Term Memory Networks. ArXiv. /abs/2305.17244
 
