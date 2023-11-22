@@ -2,29 +2,31 @@
 title: "Hardware Agnostic Parallel Application Deployment"
 excerpt: "<br/><img src='/images/Reroute_applications_CPU_GPU.png'> 
 <br/>
-CPU and GPUs are envisioned as available thread-pools equally capable of executing the
-application at hand. Providing performance superior to a discrete GPU is not the objective. The goal is to ensure that idle system times
-are reduced, resulting in better power efficiency and better throughput for the entire CPU-GPU ecosystem."
+Today's systems are increasingly heterogeneous. Accelerators such as GPUs and CPUs should all be viewed as available thread-pools capable of running the application at hand. 
+The goal is not to outperform a discrete accelerator such as a GPU. The goal is to reduce idle system times, which leads to improved power efficiency and throughput for the 
+entire heterogeneous ecosystem."
 collection: Portfolio
 ---
 <br/><img src='/images/Reroute_applications_CPU_GPU.png'> 
 <br/>
-As seen in the above figure, compute-intensive or highly parallel parts of the application code are
+Today's systems are increasingly heterogeneous. Let us consider a system with CPUs and GPUs. As seen in the above figure, compute-intensive or highly parallel parts of the application code traditionally are
 dispatched on a GPU while the sequential parts of the application are run on a CPU. We are now moving towards
-a unified architecture, i.e., CPUs and GPUs co-existing as first-class compute citizens on the same system. On these unified 
+a unified architecture, i.e., CPUs and GPUs should co-exist as first-class compute citizens on the same system. On these unified 
 architectures, the CPU should not merely be the offloader of tasks to the other system components such as the GPU. 
-It would be beneficial if in such systems, CPU and GPUs are envisioned as available thread-pools equally capable of executing the
-application at hand. Providing performance superior to a discrete GPU is not the objective. The goal is to ensure that idle system times
-are reduced, resulting in better power efficiency and better throughput for the entire CPU-GPU ecosystem.
+It would be beneficial if, GPUs and CPUs are all viewed as available thread-pools capable of running the application at hand. 
+The goal is not to outperform a discrete accelerator such as a GPU. The goal is to reduce idle system times, which leads to improved power efficiency and throughput for the 
+entire heterogeneous ecosystem. All of this must be accomplished without impairing the application developer's programmability, i.e. re-routing compute parts of an application on targeted or non-targeted 
+hardware should occur under the application's hood.
 
 <br/><img src='/images/CUDA_Task_Launcher_Results.png'> 
 <br/>
-We simulated data center workloads by executing batched applications on an all-CPU, all-GPU and CPU-
-GPU configuration. In the CPU-GPU configuration, we dispatched some applications on the CPU while some on
-the GPU from the same batch. This was preceeded by workload charachterization to identify which applications fare better on the CPU vs the GPU
-by looking at the costs of offloading compute to the GPU vs executing the application on the CPU itself. 
-As seen in Figure 6, we see that the batch workload actually fares better on the CPU-GPU config. These results confirm that 
-executing parallel applications on the CPU and GPU by charachterizing them helps improve turnaround times for batches and improves system utilization too.
+By running batched applications on an all-CPU, all-GPU, and CPU-GPU configuration, we simulated data center workloads. We dispatched some applications from the same batch on the CPU and some on the GPU 
+in the CPU-GPU configuration. This was preceded by workload characterization to determine which applications perform better on the CPU vs the GPU by comparing the costs of offloading compute to the GPU vs 
+executing the application on the CPU itself. As seen in the graph above, the batched workload performs better on the CPU-GPU configuration. These findings confirm that parallelizing applications on the CPU 
+and GPU improves batch turnaround times and system utilization in datacenters. We achieve this without affecting an application's programmability.
 
 
+
+
+<br/>
 This talk was based on the work done as a part of the internship at Nvidia Research in the summer of 2021. 
