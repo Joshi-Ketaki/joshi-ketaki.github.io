@@ -1,7 +1,7 @@
 ---
 title: "Hardware Agnostic Parallel Application Deployment"
 excerpt: "<br/><img src='/images/Reroute_applications_CPU_GPU.png'> 
-<b> Utilizing CPU SIMD units alongside GPU for parallel computations </b>
+<pre>    Utilizing CPU SIMD units alongside GPU for parallel computations </pre>
 <br/>
 Today's systems are increasingly heterogeneous. Accelerators such as GPUs and CPUs should all be viewed as available thread-pools capable of running the application at hand. 
 The goal is not to outperform a discrete accelerator such as a GPU. The goal is to reduce idle system times, which leads to improved power efficiency and throughput for the 
@@ -9,7 +9,7 @@ entire heterogeneous ecosystem."
 collection: Portfolio
 ---
 <br/><img src='/images/Reroute_applications_CPU_GPU.png'> 
-<b> Utilizing CPU SIMD units alongside GPU for parallel computations </b>
+<pre>    Utilizing CPU SIMD units alongside GPU for parallel computations </pre>
 <br/>
 Today's systems are increasingly heterogeneous. Let us consider a system with CPUs and GPUs. As seen in the above figure, compute-intensive or highly parallel parts of the application code traditionally are
 dispatched on a GPU while the sequential parts of the application are run on a CPU. We are now moving towards
@@ -22,11 +22,11 @@ hardware should occur under the application's hood. For the application develope
 We acheive this by implementing the CPU-GPU re-routing from within the GPU driver.
 
 <br/><img src='/images/CUDA_Task_Launcher_Results.png'> 
-<b> Application turnaround time is least when applications are routed on CPU-SIMD alongside GPUs. </b>
+<pre>    Application turnaround time is least when applications are routed on CPU-SIMD alongside GPUs. </pre> 
 <br/>
 By running batched applications on an all-CPU, all-GPU, and CPU-GPU configuration, we simulated data center workloads. We dispatched some applications from the same batch on the CPU and some on the GPU 
-in the CPU-GPU configuration. This was preceded by workload characterization to determine which applications perform better on the CPU vs the GPU by comparing the costs of offloading compute to the GPU vs 
-executing the application on the CPU's SIMD units itself. As seen in the graph above, the batched workload performs better on the CPU-GPU configuration. These findings confirm that parallelizing applications on the CPU 
+in the CPU-GPU configuration. This was preceded by workload characterization to determine which applications perform better on the CPU vs the GPU by comparing the costs of offloading compute to the GPU and then performing the computation vs 
+the cost of performing the computation on the CPU's SIMD units itself. We seee in the graph above, that the batched workload performs better on the CPU-GPU configuration. These findings confirm that parallelizing applications on the CPU 
 and GPU improves batch turnaround times and system utilization in datacenters. We achieve this without affecting the application's programmability i.e. a CUDA program still looks the same from the CUDA
 programmer's perspective.
 
