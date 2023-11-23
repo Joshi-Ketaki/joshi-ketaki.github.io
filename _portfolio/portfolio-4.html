@@ -26,7 +26,9 @@ We acheive this by implementing the CPU-GPU re-routing from within the GPU drive
 <br/>
 By running batched applications on an all-CPU, all-GPU, and CPU-GPU configuration, we simulated data center workloads. We dispatched some applications from the same batch on the CPU and some on the GPU 
 in the CPU-GPU configuration. This was preceded by workload characterization to determine which applications perform better on the CPU vs the GPU by comparing the costs of offloading compute to the GPU and then performing the computation vs 
-the cost of performing the computation on the CPU's SIMD units itself. We seee in the graph above, that the batched workload performs better on the CPU-GPU configuration. These findings confirm that parallelizing applications on the CPU 
+the cost of performing the computation on the CPU's SIMD units itself. We seee in the graph above, that the batched workload performs better on the CPU-GPU configuration. 
+In the initial prototype we saw a performance improvement of 1.5X compared to using only CPU-SIMD units and an improvement of 1.3X compared to using only
+GPUs for the batched workloads. These findings confirm that parallelizing applications on the CPU 
 and GPU improves batch turnaround times and system utilization in datacenters. We achieve this without affecting the application's programmability i.e. a CUDA program still looks the same from the CUDA
 programmer's perspective.
 
