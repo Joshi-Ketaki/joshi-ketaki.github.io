@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a doctoral candidate at Yale University, where I am advised by [Prof. Abhishek Bhattacharjee.](https://www.cs.yale.edu/homes/abhishek/). 
+I am a doctoral candidate at Yale University, where I am advised by [Prof. Abhishek Bhattacharjee.](https://www.cs.yale.edu/homes/abhishek/)
 
 My research utilizes cognitive principles to solve fundamental issues in machine learning such as catastrophic forgetting.
 I am specifically interested in deploying practical machine learning solutions to build accurate, adaptable and resource-efficient computer systems. 
