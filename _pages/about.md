@@ -24,7 +24,7 @@ I enjoy swimming and cycling. While I'm at home, I enjoy experimenting with diff
 News:
 ======
 1.  September 2023: Serving as the Communications Chair on the board of the Society for Women Engineers(SWE) at Yale.
-2.  May 2023: Our work on "Mitigating Catastrophic Forgetting using principles of Episodic Memory" is out on Arxiv.
+2.  May 2023: Our work on "Mitigating Catastrophic Forgetting using principles of Context-Dependent Learning" is out on Arxiv.
 3.  February 2023: Our work on "Prefetching Using Principles of Hippocampal-Neocortical Interaction" is selected for HOTOS '23.
 4.  June 2022: Received ISCA 2022 travel grant and attended ISCA in person.
 5.  June 2022: Joined Nvidia Unified Virtual Memory Team as an Intern. Developed a new eviction policy which achieved two orders of magnitude improvement over the existing policy.
