@@ -10,7 +10,7 @@ redirect_from:
 
 I am a doctoral candidate at Yale University, where I am advised by [Prof. Abhishek Bhattacharjee.](https://www.cs.yale.edu/homes/abhishek/). 
 
-My research utilizes cognitive principles to to solve fundamental issues in machine learning such as catastrophic forgetting.
+My research utilizes cognitive principles to solve fundamental issues in machine learning such as catastrophic forgetting.
 I am specifically interested in deploying practical machine learning solutions to build accurate, adaptable and resource-efficient computer systems. 
 
 Before Yale, I worked at NVIDIA in the compiler optimization group. 
