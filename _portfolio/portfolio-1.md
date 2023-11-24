@@ -18,7 +18,7 @@ We are investigating how CF manifests in neural network architectures. In LSTMs,
 
 <br/><img src='/images/NN_task_context_learning.png'> 
 
-We observe that similar to a neural network, the human brain is constantly confronted with tasks. It discovers and employs contextual cues to learn and recall these tasks. We use this observation and deploy context-dependent learning in neural networks, which mitigates CF while being more resource-efficient than existing CF mitigation strategies. We propose maintaining distinct cell-state memories for each task in order to maintain distinct contexts. The initial prototype studies with the proposed method show 16 times less external storage usage and is 1.6 times faster in training time compared to existing CF mitigation strategies. 
+We observe that similar to a neural network, the human brain is constantly confronted with tasks. It discovers and employs contextual cues to learn and recall these tasks. We use this observation and deploy context-dependent learning in neural networks, which mitigates CF while being more resource-efficient than existing CF mitigation strategies. We propose maintaining distinct LSTM cell-state memories for each task in order to maintain distinct contexts. The initial prototype studies with the proposed method show 16 times less external storage usage and is 1.6 times faster in training time compared to existing CF mitigation strategies. 
 We plan to further continue this investigation of implementing context-dependent recall to mitigate catastrophic forgetting in more neural network architectures such as transformers. 
 
 Note that this research is currently in progress and being updated continuously.
