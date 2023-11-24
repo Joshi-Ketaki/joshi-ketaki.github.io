@@ -13,7 +13,7 @@ I am a doctoral candidate at Yale University, where I am advised by [Prof. Abhis
 My research utilizes cognitive principles to solve fundamental issues in machine learning such as catastrophic forgetting.
 I am specifically interested in deploying practical machine learning solutions to build accurate, adaptable and resource-efficient computer systems. 
 
-Before Yale, I worked at NVIDIA in the compiler optimization group. 
+Before Yale, I was a part of Nvidia's compiler optimization group. 
 I received my undergraduate degree in Computer Engineering from the [University of Pune](http://www.unipune.ac.in/). I completed my undergraduate thesis research in compiler optimizations at 
 the [Indian Institute of Technology, Bombay](https://www.iitb.ac.in/), where I was advised by [Prof. Uday Khedkar](https://www.cse.iitb.ac.in/~uday/).
 
