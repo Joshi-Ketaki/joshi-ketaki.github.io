@@ -18,7 +18,8 @@ entire heterogeneous ecosystem. All of this must be accomplished without impairi
 hardware should occur under the application's hood. For the application developer such as a CUDA application developer, a CUDA program should still look as before. 
 We acheive this by implementing the CPU-GPU re-routing from within the GPU driver.
 
-<br/><img src='/images/CUDA_Task_Launcher_Results.png'> 
+<br/><img src='/images/CUDA_Task_Launcher_Results.png'> <br/>
+
 By running batched applications on an all-CPU, all-GPU, and CPU-GPU configuration, we simulated data center workloads. We dispatched some applications from the same batch on the CPU and some on the GPU 
 in the CPU-GPU configuration. This was preceded by workload characterization to determine which applications perform better on the CPU vs the GPU by comparing the costs of offloading compute to the GPU and then performing the computation vs 
 the cost of performing the computation on the CPU's SIMD units itself. We seee in the graph above, that the batched workload performs better on the CPU-GPU configuration. 
