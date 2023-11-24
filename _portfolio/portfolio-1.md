@@ -14,7 +14,7 @@ We examine this for the usecase of building resource-efficient, accurate and ada
 
 <br/><img src='/images/NN_No_task_context_learning.png'>
 
-We are investigating how CF manifests in these neural network architectures. In LSTMs, we find that when new tasks are learned, task-relevant information from previous tasks is removed from the cell-state memory, resulting in the manifestation of CF.
+We are investigating how CF manifests in neural network architectures. In LSTMs, we find that when new tasks are learned, task-relevant information from previous tasks is removed from the cell-state memory, resulting in the manifestation of CF.
 
 <br/><img src='/images/NN_task_context_learning.png'> 
 
