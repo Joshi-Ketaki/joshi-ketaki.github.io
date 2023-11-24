@@ -17,7 +17,7 @@ Before Yale, I was a part of Nvidia's compiler optimization group.
 I received my undergraduate degree in Computer Engineering from the [University of Pune](http://www.unipune.ac.in/). I completed my undergraduate thesis research in compiler optimizations at 
 the [Indian Institute of Technology, Bombay](https://www.iitb.ac.in/), where I was advised by [Prof. Uday Khedkar](https://www.cse.iitb.ac.in/~uday/).
 
-I am originally from [Pune, India](https://pune.gov.in/), commonly known as 'The Oxford of the East,'. It is a city in western India surrounded by hills and home to numerous educational institutes. 
+I am originally from [Pune, India](https://pune.gov.in/), commonly known as 'The Oxford of the East'. It is a city in western India surrounded by hills and home to numerous educational institutes. 
 I enjoy swimming and cycling. While I'm at home, I enjoy experimenting with different spice profiles for tea.
 
 
