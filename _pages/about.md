@@ -27,4 +27,4 @@ News:
 2.  May 2023: Our work on "Mitigating Catastrophic Forgetting using principles of Context-Dependent Learning" is out on Arxiv.
 3.  February 2023: Our work on "Prefetching Using Principles of Hippocampal-Neocortical Interaction" is selected for HOTOS '23.
 4.  June 2022: Received ISCA 2022 travel grant and attended ISCA in person.
-5.  June 2022: Joined Nvidia Unified Virtual Memory Team as an Intern. Developed a new eviction policy which achieved two orders of magnitude improvement over the existing policy.
+5.  June 2022: Joined Nvidia Unified Virtual Memory Team as an Intern. Developed a new access-aware eviction policy that suits traditional and emerging applications. It achieved two orders of magnitude performance improvement over the existing policy.
