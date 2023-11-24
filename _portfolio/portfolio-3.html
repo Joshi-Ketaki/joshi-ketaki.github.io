@@ -12,12 +12,11 @@ Furthermore, the interconnects between the heterogenous nodes are slower, slowin
 to the node where it will be required.
 
 <br/><img src='/images/Results_Rate_Acess_GE.png'> <br/>
-We looked at the quantity and quality of evictions, i.e. what was evicted and if they were bad eviction candidates.  
-A bad eviction candidate is one which will be needed soon and must be brought back after eviction. This causes more evictions because we need to make room for 
-the recently discarded data to be brought back in. We saw that the current eviction policy chose a lot of bad candidates for irregular access patterns, which resulted 
-in an increase in the number of evictions. The current policy in the CPU-GPU memory management stack was developed when GPUs were predominantly used for applications with streaming access patterns. As a result, the current eviction policy performs poorly in emerging GPU applications such as graph processing, where access patterns are irregular or non-streaming. As part of this internship, I worked on developing an eviction policy that is appropriate for all access patterns. 
-This policy is access-aware and does not discard data that will be needed in the near future. This new policy resulted in a two-order-of-magnitude increase in performance. 
-It evicts data that will not be used in the near future. This reduces the total number of evictions and, as a result, the number of memory transfers. 
-The graph above shows the reduction in evictions as a result of the proposed policy compared to the existing baseline (shown in red).
+When the compute node's (GPU in this case) memory gets oversubscribed, it is important to evict data to make space for new incoming data. For the existing eviction policy we studied the quantity and quality of evictions. The existing eviction policy worked well 
+for simple access patterns that demonstrated streaming. We noticed that for irregular memory acces patterns, the existing eviction policy selected a lot of bad eviction candidates. A bad eviction candidate is one which will be needed soon and must be brought back after eviction. 
+This causes even more evictions because we need to make room for the recently discarded data to be brought back in. The current policy in the CPU-GPU memory management stack was developed when GPUs were predominantly used for applications with streaming access patterns. As a result, 
+the current eviction policy performs poorly in emerging GPU applications such as graph processing, where access patterns are irregular or non-streaming. As part of this internship, I worked on developing an eviction policy that is appropriate for all access patterns. 
+This new policy is access-aware and does not discard data that will be needed in the near future. This new policy resulted in a two-order-of-magnitude increase in performance. 
+This reduces the total number of evictions and, as a result, the number of memory transfers. The graph above shows the reduction in evictions as a result of the proposed policy compared to the existing baseline (shown in red).
 
 This talk was based on the work done as a part of the internship at Nvidia in the summer of 2022.
