@@ -10,7 +10,7 @@ redirect_from:
 
 I am a doctoral candidate at Yale University, where I am advised by [Prof. Abhishek Bhattacharjee.](https://www.cs.yale.edu/homes/abhishek/)
 
-My research predominantly has been on improving the efficacy of virtual memory management optimizations i.e. prefetching and evictions.
+My research predominantly has been on improving the efficacy of virtual memory management optimizations i.e. prefetching and evictions in computer systems.
 I have proposed the use of practical machine learning solutions to build adaptable, accurate, and resource-efficient memory management solutions. In developing these accurate and resource-efficient machine-learning solutions, I am also exploring cognitive principles to solve fundamental issues in machine learning such as catastrophic forgetting.
 
 
