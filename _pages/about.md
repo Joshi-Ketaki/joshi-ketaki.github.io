@@ -19,12 +19,12 @@ Before Yale, I worked full-time at Nvidia's compiler optimization group.
 I received my undergraduate degree in Computer Engineering from the [University of Pune](http://www.unipune.ac.in/). I completed my undergraduate thesis research in compiler optimizations at 
 the [Indian Institute of Technology, Bombay](https://www.iitb.ac.in/), where I was advised by [Prof. Uday Khedkar](https://www.cse.iitb.ac.in/~uday/).
 
-I am looking for exciting full-time opportunities! Reach out to me at [ketaki.joshi@yale.edu](ketaki.joshi@yale.edu)!
+I am looking for exciting full-time opportunities! Reach out to me at [ketaki.joshi@yale.edu](mailto:ketaki.joshi@yale.edu)!
 
 
 News:
 ======
-1.  I am looking for exciting full-time opportunities! Reach out to me at [ketaki.joshi@yale.edu](ketaki.joshi@yale.edu)!
+1.  I am looking for exciting full-time opportunities! Reach out to me at [ketaki.joshi@yale.edu](mailto:ketaki.joshi@yale.edu)!
 2.  September 2023: Serving as the Communications Chair on the board of the Society for Women Engineers(SWE) at Yale.
 3.  May 2023: Our work on "Mitigating Catastrophic Forgetting using principles of Context-Dependent Learning" is out on Arxiv.
 4.  February 2023: Our work on "Prefetching Using Principles of Hippocampal-Neocortical Interaction" is selected for HOTOS '23.
