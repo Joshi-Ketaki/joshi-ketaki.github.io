@@ -9,7 +9,7 @@ redirect_from:
 ---
 I am on the job-market for full-time opportunities! Reach out to me at [ketaki.joshi@yale.edu](mailto:ketaki.joshi@yale.edu)!
 
-I am also a post candidacy researcher at Yale University.
+I am also a post candidacy researcher at [Yale University](https://www.yale.edu).
 
 My research has been on improving the efficacy of memory management in tiered memory systems. Specifically, I have worked on improving prefetching and eviction in CPU-GPU memory systems.
 
