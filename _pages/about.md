@@ -7,16 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am on the job-market for full-time opportunities! Reach out to me at [ketaki.joshi@yale.edu](mailto:ketaki.joshi@yale.edu)!
+I am on the job-market for full-time opportunities! Reach out to me at [ketaki.joshi@yale.edu](mailto:ketaki.joshi@yale.edu)! I have earned my Masters in Computer Science (Thesis) and M.Phil with Computer Science(Thesis) from Yale. 
 
 I am a post candidacy researcher at [Yale University](https://www.yale.edu).
-
 My research has been on improving the efficacy of memory management in tiered memory systems. Specifically, I have worked on improving prefetching and eviction in CPU-GPU memory systems.
-
 I have proposed the use of practical machine learning solutions to build adaptable, accurate, and resource-efficient memory management solutions. While developing these solutions, I am making use of cognitive principles to solve fundamental issues in online machine learning such as catastrophic forgetting.
 
 
-I have earned my Masters in Computer Science (Thesis) and M.Phil with Computer Science(Thesis) from Yale. 
 Before Yale, I worked full-time at Nvidia's compiler optimization group. 
 I received my undergraduate degree in Computer Engineering from the [University of Pune](http://www.unipune.ac.in/). I completed my undergraduate thesis research in compiler optimizations at 
 the [Indian Institute of Technology, Bombay](https://www.iitb.ac.in/), where I was advised by [Prof. Uday Khedkar](https://www.cse.iitb.ac.in/~uday/).
