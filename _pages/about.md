@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am on the job-market for full-time opportunities! Reach out to me at ketaki.joshi@yale.edu(mailto:ketaki.joshi@yale.edu)!
+I am on the job-market for full-time opportunities! Reach out to me at [ketaki.joshi@yale.edu](mailto:ketaki.joshi@yale.edu)!
 
 I am also a post candidacy researcher at Yale University.
 
