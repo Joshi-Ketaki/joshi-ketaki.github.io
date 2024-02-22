@@ -7,14 +7,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am on the job-market for full-time opportunities! Reach out to me at [ketaki.joshi@yale.edu](mailto:ketaki.joshi@yale.edu)! I have earned my Masters in Computer Science (Thesis) and M.Phil with Computer Science(Thesis) from Yale. 
+I am on the job-market for full-time opportunities! Reach out to me at [joshiketakir@gmail.com](mailto:joshiketakir@gmail.com)! I have earned my Masters in Computer Science (Thesis) and M.Phil with Computer Science(Thesis) from Yale. 
 
-I am a post candidacy researcher at [Yale University](https://www.yale.edu).
-My research has been on improving the efficacy of memory management in tiered memory systems. Specifically, I have worked on improving prefetching and eviction in CPU-GPU memory systems.
+Previously, I have worked full-time and interned at Nvidia working on compilers and virtual memory management for tiered memory systems. I have also been a researcher at Yale where my research has been on improving the efficacy of memory management in tiered memory systems. Specifically, I have worked on improving prefetching and eviction in CPU-GPU memory systems.
 I have proposed the use of practical machine learning solutions to build adaptable, accurate, and resource-efficient memory management solutions. While developing these solutions, I am making use of cognitive principles to solve fundamental issues in online machine learning such as catastrophic forgetting.
 
-
-Before Yale, I worked full-time at Nvidia's compiler optimization group. 
+ 
 I received my undergraduate degree in Computer Engineering from the [University of Pune](http://www.unipune.ac.in/). I completed my undergraduate thesis research in compiler optimizations at 
 the [Indian Institute of Technology, Bombay](https://www.iitb.ac.in/), where I was advised by [Prof. Uday Khedkar](https://www.cse.iitb.ac.in/~uday/).
 
@@ -23,7 +21,7 @@ the [Indian Institute of Technology, Bombay](https://www.iitb.ac.in/), where I w
 
 News:
 ======
-1.  I am looking for exciting full-time opportunities! Reach out to me at [ketaki.joshi@yale.edu](mailto:ketaki.joshi@yale.edu)!
+1.  I am looking for exciting full-time opportunities! Reach out to me at [joshiketakir@gmail.com](mailto:joshiketakir@gmail.com)!
 2.  September 2023: Serving as the Communications Chair on the board of the Society for Women Engineers(SWE) at Yale.
 3.  May 2023: Our work on "Mitigating Catastrophic Forgetting using principles of Context-Dependent Learning" is out on Arxiv.
 4.  February 2023: Our work on "Prefetching Using Principles of Hippocampal-Neocortical Interaction" is selected for HOTOS '23.
