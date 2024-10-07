@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ketaki Joshi"
 title_separator          : "-"
 name                     : &name "Ketaki Joshi"
-description              : &description "PhD candidate at Yale University"
+description              : #&description ""
 url                      : https://joshi-ketaki.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Joshi-Ketaki/joshi-ketaki.github.io"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Ketaki Joshi"
   avatar           : "profile.jpg"
-  bio              : "Ph.D Candidate, Computer Science"
-  employer         : "Yale University"
+  bio              : #"Ph.D Candidate, Computer Science"
+  employer         : #"Yale University"
   pubmed           : #""
   googlescholar    : #""
-  email            : ketaki.joshi@yale.edu
+  email            : joshiketakir@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -101,8 +101,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedIn         : "ketaki-joshi-yale-cs"
-  orcid            : "https://orcid.org/0009-0009-7913-3458"
+  linkedIn         : #"ketaki-joshi-yale-cs"
+  orcid            : #"https://orcid.org/0009-0009-7913-3458"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
