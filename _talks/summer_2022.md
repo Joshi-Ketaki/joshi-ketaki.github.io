@@ -1,7 +1,7 @@
 ---
 title: "Access Guided Eviction for Unified Virtual Memory"
 collection: talks
-type: "Internship talk"
+type: "Internship Talk"
 permalink: /talks/summer_2022
 venue: "Nvidia"
 date: 2022-08-26
