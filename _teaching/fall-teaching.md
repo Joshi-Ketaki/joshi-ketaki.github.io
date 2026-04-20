@@ -8,8 +8,6 @@ date: 2022-01-01
 location: "New Haven, Connecticut"
 ---
 
-Responsible for the compiler module. 
-
 1. Assisted new teaching assistants with their onboarding.
 2. Supervised the compiler module, which reused the toy compiler assignment I had designed in the Spring 2022 distribution of the course.
 3. Graded examinations.
