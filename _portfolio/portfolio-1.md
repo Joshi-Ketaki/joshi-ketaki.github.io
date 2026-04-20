@@ -14,12 +14,12 @@ We examine this for the usecase of building resource-efficient, accurate and ada
 
 <br/><img src='/images/NN_No_task_context_learning.png'>
 
-We are investigating how CF manifests in neural network architectures. In LSTMs, we find that when new tasks are learned, task-relevant information from previous tasks is removed from the cell-state memory, resulting in the manifestation of CF.
+We investigated how CF manifests in neural network architectures. In LSTMs, we found that when new tasks are learned, task-relevant information from previous tasks is removed from the cell-state memory, resulting in the manifestation of CF.
 
 <br/><img src='/images/NN_task_context_learning.png'> 
 
-We observe that similar to a neural network, the human brain is constantly confronted with tasks. It discovers and employs contextual cues to learn and recall these tasks. We use this observation and deploy context-dependent learning in neural networks, which mitigates CF while being more resource-efficient than existing CF mitigation strategies. We propose maintaining distinct cell-state memories in the LSTM for each task in order to maintain distinct contexts. The initial prototype studies with the proposed method show 16 times less external storage usage and is 1.6 times faster in training time compared to existing CF mitigation strategies. 
-We plan to further continue this investigation of implementing context-dependent recall to mitigate catastrophic forgetting in more neural network architectures such as transformers. 
+We observed that similar to a neural network, the human brain is constantly confronted with tasks. It discovers and employs contextual cues to learn and recall these tasks. We used this observation and deploy context-dependent learning in neural networks, which mitigates CF while being more resource-efficient than existing CF mitigation strategies. We proposed maintaining distinct cell-state memories in the LSTM for each task in order to maintain distinct contexts. The initial prototype studies with the proposed method showed 16 times less external storage usage and was 1.6 times faster in training time compared to existing CF mitigation strategies. 
+
 
 Note that this research is currently in progress and being updated continuously.
 <br/>
