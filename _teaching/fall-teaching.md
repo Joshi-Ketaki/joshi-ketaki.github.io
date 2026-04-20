@@ -3,6 +3,7 @@ title: "CPSC 323 : Introduction to Systems Programming(Fall 2022)"
 collection: teaching assistantship
 permalink: /teaching/fall_teaching
 venue: "Yale University"
+type="Introduction to Systems Programming"
 date: 2022-01-01
 location: "New Haven, Connecticut"
 ---
